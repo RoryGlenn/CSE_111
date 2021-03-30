@@ -1,0 +1,12 @@
+checksource: improper character \x09 = ^I (tab)
+workspace.code-workspace: 171 errors: lines 2--62
+checksource: line length > 144 characters
+HEADER.html: 1 errors: line 42
+checksource: line length > 72 characters
+HEADER.html: 2 errors: lines 41--42
+Makefile: 1 errors: line 64
+protocol.h: 2 errors: lines 38--39
+sockets.h: 3 errors: lines 35, 116, 129
+checksource: missing newline at end of line
+workspace.code-workspace: 1 errors: line 63
+checksource: TOTAL COMPLAINTS: 181

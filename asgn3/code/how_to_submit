@@ -1,0 +1,6 @@
+submit cse111-wm.w21 asgn file1 file2 file3
+
+For example:
+	submit cse111-wm.w21 asg2 commands.cpp commands.h debug.cpp debug.h file_sys.cpp file_sys.h main.cpp Makefile util.cpp util.h
+	
+	submit cse111-wm.w21 asg3 *.cpp *.h *.tcc README Makefile

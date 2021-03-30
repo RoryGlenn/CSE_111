@@ -1,0 +1,11 @@
+//---------------------------------------------------------------------------------
+// Authors:   Rory Glenn
+// Email:     romglenn@ucsc.edu
+// Quarter:   Winter 2021
+// Class:     CSE 111
+// Project:   asgn1: Big Int
+// Professor: Wesley Mackey
+//
+// source.cpp
+// Implementaion file for Big Int
+//---------------------------------------------------------------------------------

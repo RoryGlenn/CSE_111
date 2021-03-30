@@ -1,0 +1,6 @@
+checksource: line length > 72 characters
+   file "commands.h": 1 errors: line 75
+   file "file_sys.h": 3 errors: lines 30, 73, 257
+checksource: missing newline at end of line
+   file "workspace.code-workspace": 1 errors: line 7
+checksource: TOTAL COMPLAINTS: 5

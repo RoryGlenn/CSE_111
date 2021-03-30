@@ -1,0 +1,131 @@
+head	1.5;
+access;
+symbols;
+locks;
+comment	@// @;
+
+
+1.5
+date	2016.07.29.21.17.42;	author -;	state -;
+branches;
+next	1.4;
+
+1.4
+date	2016.07.29.21.17.24;	author -;	state -;
+branches;
+next	1.3;
+
+1.3
+date	2016.07.29.21.17.13;	author -;	state -;
+branches;
+next	1.2;
+
+1.2
+date	2016.07.29.21.17.00;	author -;	state -;
+branches;
+next	1.1;
+
+1.1
+date	2016.07.29.21.16.48;	author -;	state -;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@-
+@
+text
+@// $Id: socketclient.cpp,v 1.4 2016-07-29 14:17:24-07 - - $
+
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <typeinfo>
+using namespace std;
+
+#include "../simple-sockets/sockets.h"
+
+template <typename Type>
+Type from_string (const string &str) { 
+   stringstream stream; 
+   stream << str; 
+   Type result; 
+   if (not (stream >> result and stream.eof())) {
+      throw domain_error (string (typeid (Type).name())
+            + " from_string (" + str + ")"); 
+   }
+   return result; 
+}
+
+void echo_server (string hostname, in_port_t port) {
+   client_socket serv (hostname, port);
+   for (;;) {
+      string buffer; 
+      int nbytes = serv.recv (buffer);
+      if (nbytes == 0) break;
+      cout << buffer; 
+   }
+}
+
+int main (int argc, char** argv) {
+   if (argc != 3) exit (1);
+   echo_server (argv[1], from_string<in_port_t> (argv[2]));
+}
+
+#include "../simple-sockets/sockets.cpp"
+@
+
+
+1.4
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: socketclient.cpp,v 1.3 2016-07-29 14:17:13-07 - - $
+d34 1
+@
+
+
+1.3
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: socketclient.cpp,v 1.2 2016-07-29 14:17:00-07 - - $
+d27 1
+a27 1
+      int nbytes = server.recv (buffer);
+@
+
+
+1.2
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id: socketclient.cpp,v 1.1 2016-07-29 14:16:48-07 - - $
+d6 1
+@
+
+
+1.1
+log
+@-
+@
+text
+@d1 1
+a1 1
+// $Id$
+d4 1
+@

@@ -1,0 +1,13 @@
+checksource: improper character \x80
+   file "bigint.h": 1 errors: line 18
+checksource: improper character \x88
+   file "ubigint.cpp": 1 errors: line 97
+checksource: improper character \x92
+   file "ubigint.cpp": 1 errors: line 97
+checksource: improper character \x99
+   file "bigint.h": 1 errors: line 18
+checksource: line length > 72 characters
+   file "bigint.h": 4 errors: lines 18--19, 33--34
+   file "scanner.h": 1 errors: line 23
+   file "ubigint.cpp": 8 errors: lines 95--98, 117--118, 140, 150
+checksource: TOTAL COMPLAINTS: 17

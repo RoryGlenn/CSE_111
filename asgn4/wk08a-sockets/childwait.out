@@ -1,0 +1,50 @@
+childwait(15007):  0.00005 Main starting.
+childwait(15007):  0.00033 Child 15008 created.
+childwait(15008):  0.00035 Child 0 starting.
+childwait(15008):  2.00063 Child 0 message 0.
+childwait(15008):  4.00085 Child 0 message 1.
+childwait(15007):  5.00074 Child 15029 created.
+childwait(15029):  5.00080 Child 1 starting.
+childwait(15008):  6.00105 Child 0 message 2.
+childwait(15029):  7.00112 Child 1 message 0.
+childwait(15008):  8.00131 Child 0 message 3.
+childwait(15029):  9.00140 Child 1 message 1.
+childwait(15007): 10.00126 Child 15060 created.
+childwait(15060): 10.00143 Child 2 starting.
+childwait(15008): 10.00180 Child 0 message 4.
+childwait(15008): 10.00185 Child 0 finished.
+childwait(15029): 11.00162 Child 1 message 2.
+childwait(15060): 12.00171 Child 2 message 0.
+childwait(15029): 13.00183 Child 1 message 3.
+childwait(15060): 14.00203 Child 2 message 1.
+childwait(15029): 15.00202 Child 1 message 4.
+childwait(15007): 15.00203 Child 15134 created.
+childwait(15029): 15.00219 Child 1 finished.
+childwait(15007): 15.00227 Child pid 15008 status 0 signal 0 core 0
+childwait(15134): 15.00247 Child 3 starting.
+childwait(15060): 16.00236 Child 2 message 2.
+childwait(15134): 17.00279 Child 3 message 0.
+childwait(15060): 18.00260 Child 2 message 3.
+childwait(15134): 19.00306 Child 3 message 1.
+childwait(15007): 20.00270 Child 15153 created.
+childwait(15007): 20.00286 Child pid 15029 status 1 signal 0 core 0
+childwait(15060): 20.00289 Child 2 message 4.
+childwait(15153): 20.00276 Child 4 starting.
+childwait(15060): 20.00292 Child 2 finished.
+childwait(15134): 21.00333 Child 3 message 2.
+childwait(15153): 22.00307 Child 4 message 0.
+childwait(15134): 23.00355 Child 3 message 3.
+childwait(15153): 24.00332 Child 4 message 1.
+childwait(15007): 25.00301 Waiting for Godot.
+childwait(15007): 25.00322 Child pid 15060 status 2 signal 0 core 0
+childwait(15134): 25.00379 Child 3 message 4.
+childwait(15134): 25.00389 Child 3 finished.
+childwait(15153): 26.00365 Child 4 message 2.
+childwait(15153): 28.00398 Child 4 message 3.
+childwait(15007): 30.00340 Waiting for Godot.
+childwait(15007): 30.00355 Child pid 15134 status 3 signal 0 core 0
+childwait(15153): 30.00426 Child 4 message 4.
+childwait(15153): 30.00437 Child 4 finished.
+childwait(15007): 35.00366 Waiting for Godot.
+childwait(15007): 35.00384 Child pid 15153 status 4 signal 0 core 0
+childwait(15007): 35.00387 Main finished.

@@ -1,0 +1,4 @@
+yshell: mkdir:  cannot create directory 'this/mkdir/should/error/out': No such file or directory
+yshell: make: foo/bar: is already a directory
+yshell: /: No such file or directory
+yshell: lsr: foo: No such file or directory

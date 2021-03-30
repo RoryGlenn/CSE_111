@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"stdexcept": "cpp"
+		}
+	},
+	"extensions": {
+		"recommendations": [
+			"tabnine.tabnine-vscode"
+		]
+	}
+}

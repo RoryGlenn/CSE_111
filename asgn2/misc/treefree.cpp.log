@@ -1,0 +1,10 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: starting treefree.cpp
+$Id: treefree.cpp,v 1.89 2020-11-04 19:27:34-08 - - $
+checksource treefree.cpp
+checksource: TOTAL COMPLAINTS: 0
+treefree.cpp: $Id: treefree.cpp,v 1.89 2020-11-04 19:27:34-08 - - $
+cpplint.py.perl treefree.cpp
+Done processing treefree.cpp
+g++ -Wall -Wextra -Wpedantic -Wshadow -fdiagnostics-color=never -std=gnu++2a -Wold-style-cast -g -O0 treefree.cpp -o treefree -lm
+rm -f treefree.o
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ mkc: finished treefree.cpp
